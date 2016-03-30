@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "name": "(CSI/MW/MODULE) WikiSEO",
+  "description": "Изменение meta-информации страницы (ключевые слова, описание) и преобразование заголовка.",
+  "version": "1.0.0",
+  "type": "mediawiki-module",
+  "keywords": [
+    "mediawiki",
+    "module",
+    "extension"
+  ],
+  "homepage": "http://cyberspace.industries/",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Kitsune Solar",
+      "email": "msg@kitsune.solar",
+      "homepage": "http://kitsune.solar/"
+    }
+  ],
+  "support": {
+    "source": "",
+    "issues": "http://cyberspace.community/",
+    "forum": "http://cyberspace.community/"
+  }
+}

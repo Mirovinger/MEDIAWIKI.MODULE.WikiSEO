@@ -1,0 +1,36 @@
+{
+  "name": "WikiSEO",
+  "version": "1.0.0",
+  "author": [
+    "Andru Vallance",
+    "[//kitsune.solar/ Kitsune Solar]",
+    "[//cyberspace.industries/ CYBERSPACE.Industries]",
+    "..."
+  ],
+  "url": "",
+  "descriptionmsg": "seo-ext-desc",
+  "license-name": "[//www.gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
+  "type": "parserhook",
+  "ExtensionMessagesFiles": {
+    "WikiSEOMagic": "WikiSEO.i18n.magic.php"
+  },
+  "MessagesDirs": {
+    "WikiSEO": [
+      "i18n"
+    ]
+  },
+  "AutoloadClasses": {
+    "WikiSEO": "WikiSEO.body.php"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": [
+      "WikiSEO::init"
+    ],
+    "OutputPageBeforeHTML": [
+      "WikiSEO::loadParamsFromWikitext"
+    ],
+    "BeforePageDisplay": [
+      "WikiSEO::modifyHTML"
+    ]
+  }
+}

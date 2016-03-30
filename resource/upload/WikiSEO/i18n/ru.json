@@ -1,0 +1,9 @@
+{
+  "@metadata": {
+    "authors": [
+      "Kitsune Solar"
+    ]
+  },
+  "seo-ext-desc": "Позволяет менять meta-информацию страницы (ключевые слова, описание) и преобразовывать заголовок.",
+  "seo-empty-attr": "Ошибка: &lt;seo&gt; тег должен содержать как минимум один из следующих атрибутов: &quot;title&quot; или &quot;metakeywords&quot; или &quot;metadescription&quot;."
+}
